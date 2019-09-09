@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        input {
+            background: none;
+            color: black;
+            border: groove;
+        }
+        .button {
+        	border: none;
+        	background: inherit;
+        	padding: 14px 28px;
+        	font-size: 16px;
+        	cursor: pointer;
+        	display: inline-block;
+        }
+        .button: hover {background: none;}
+        .salvesta {color: green;}
+        .katkesta {color:red;}
+        .nimekiri {color:blue;}
+        .lisa {color:blue;}
+
+    	</style>
+        <title>Harjutustund 1</title>
+    </head>
+    <body background="https://stormandsky.com/gif/14.gif">
+	<div>
+        <tr>
+            <td><a href="list.html"><button type="submit" class="button nimekiri">Nimekiri</button></a></td>
+            <td><a href="add.html"><button type="submit" class="button lisa">Lisa</button></a></td>
+        </tr>
+        <br>
+    </div>   
+
+    <table class="form-table">
+    	<tbody>
+    	<tr>
+    		<form action="/button-type">
+    		<td><b>Eesnimi:</b></td>
+    		<td><input name="firstName" /></td>
+    	</tr>
+    	<tr>
+    		<td><b>Perekonnanimi:</b></td>
+    		<td><input name="lastName" /></td>
+    	</tr>
+    	<tr>
+    		<td><b>Telefon:</b></td>
+    		<td><input name="phone" /></td>
+    	</tr>
+    </style>
+    	<tr>
+    		<td colspan="2">
+    			<br>
+    			<button type="submit" class="button salvesta">Salvesta</button>
+    			<button type="reset" class="button katkesta">Katkesta</button>
+    			</form>
+    			
+    		</td>
+    	</tr>
+    	</tbody>
+
+    </table>
+
+
+
+    </body>
+</html>
